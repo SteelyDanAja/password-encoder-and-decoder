@@ -46,10 +46,10 @@ def main():
             encoded_password = encode(inputted_password)
             print('Your password has been encoded and stored!')
             pass
-        if option == '2':
+        elif option == '2':
             decoded_password = decode(encoded_password)
             print(f"The encoded password is {encoded_password}, and the original password is {decoded_password}.")
-        if option == '3':
+        elif option == '3':
             program_on = False
 
 
